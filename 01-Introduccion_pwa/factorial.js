@@ -8,3 +8,14 @@ const fact = (n) => {
 
     return acum;
 }
+
+const suma = (sumar) =>{
+    sumar(2,3);
+}
+
+
+function sumar(n1,n2){
+    console.log(n1*n2);
+}
+
+suma(sumar);
